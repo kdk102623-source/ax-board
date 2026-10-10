@@ -1,0 +1,132 @@
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1rem 8rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.25rem;
+}
+
+.notice {
+  color: #888;
+  font-size: 0.85rem;
+  margin: 0 0 2rem;
+}
+
+.faq h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.faq-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-size: 1.05rem;
+  color: #2563eb;
+  cursor: pointer;
+}
+
+.faq-question:hover {
+  text-decoration: underline;
+}
+
+.faq-detail {
+  margin: 0.5rem auto 0;
+  padding: 0.75rem 1rem;
+  max-width: 480px;
+  border: 1px solid #d0d7e2;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.faq-detail p {
+  margin: 0;
+}
+
+.faq-source {
+  margin-top: 0.5rem !important;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.chat-panel {
+  position: fixed;
+  left: 50%;
+  bottom: 5rem;
+  transform: translateX(-50%);
+  width: min(480px, calc(100% - 2rem));
+  box-sizing: border-box;
+  padding: 1rem;
+  border: 1px solid #d0d7e2;
+  border-radius: 12px;
+  background: Canvas;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  text-align: left;
+}
+
+.chat-panel h2 {
+  font-size: 1rem;
+  margin: 0 0 0.75rem;
+}
+
+.category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.tab {
+  padding: 0.35rem 0.8rem;
+  border: 1px solid #2563eb;
+  border-radius: 999px;
+  background: none;
+  color: #2563eb;
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #2563eb;
+  color: #fff;
+}
+
+.chat-hint {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+.example-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.chat-button {
+  position: fixed;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translateX(-50%);
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 999px;
+  background: #2563eb;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
